@@ -1,2 +1,86 @@
-Pods
 
+# Created by https://www.gitignore.io/api/xcode,swift,carthage,cocoapods,objective-c
+# Edit at https://www.gitignore.io/?templates=xcode,swift,carthage,cocoapods,objective-c
+
+# General
+.DS_Store
+.index-build/
+
+# Carthage
+Carthage/Checkouts
+Carthage/Build
+
+# CocoaPods
+Pods/
+
+# Cocoapods-binary-cache
+_Prebuild*/
+.cocoapods-binary-cache/
+
+# Build generated
+build/
+DerivedData/
+
+# Various settings
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+
+# Other
+*.moved-aside
+*.xccheckout
+*.xcscmblueprint
+*.xcodeproj
+*.xcworkspace
+
+# Obj-C/Swift specific
+*.hmap
+*.ipa
+
+# fastlane
+.env
+fastlane/README.md
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/test_output
+
+# Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# Swift Package Manager
+.build/
+
+# Xcode Patch
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcworkspace/contents.xcworkspacedata
+/*.gcno
+**/xcshareddata/WorkspaceSettings.xcsettings
+
+# Tuist derived files
+graph.dot
+Derived/
+Tuist/.index-build
+
+# Tuist managed dependencies
+Tuist/Dependencies/SwiftPackageManager
+Tuist/Dependencies/Carthage
+Tuist/Dependencies/graph.json
+
+# VS Code
+.vscode/
+
+# Swiftlint Cache
+.swiftlint/
+
+# Etc
+.author.inc
+personalized_featureflags.json
