@@ -16,7 +16,7 @@ let package = Package(
           name: "SweeterSwift",
           dependencies: [],
           path: "Source",
-          resources: [.copy("PrivacyInfo.xcprivacy")]
+          resources: [.copy("../PrivacyInfo.xcprivacy")]
         ),
         .testTarget(
           name: "SweeterSwiftTests",
